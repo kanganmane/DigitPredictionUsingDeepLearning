@@ -1,6 +1,6 @@
 # Handwritten Digit Prediction using Deep Learning
 
-This project uses a neural network built with TensorFlow to classify handwritten digits (0–9) using the MNIST dataset.
+This project uses two neural networks to classify handwritten digits (0–9) using the MNIST dataset.
 
 ## Tech Stack
 - Python
@@ -10,14 +10,16 @@ This project uses a neural network built with TensorFlow to classify handwritten
 - OpenCV
 
 ## Dataset
-MNIST dataset (28x28 grayscale images of handwritten digits)
+MNIST dataset
 
-## Model Architecture
-- Flatten layer
-- Dense (128, ReLU)
-- Dense (50, ReLU)
-- Dense (10, Sigmoid)
+## Models
+I have used two models. The first model is simple dense NN model and the second model is a dense NN with Dropout.
 
 ## Results
-- Training Accuracy: 99.2%
-- Test Accuracy: ~97.7%
+
+### Model 1:
+- Training Accuracy: 99.35%
+- Test Accuracy: 96.71%
+### Model 2:
+- Training Accuracy: 97.60%
+- Test Accuracy: 97.68%
